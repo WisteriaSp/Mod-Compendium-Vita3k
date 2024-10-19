@@ -67,7 +67,7 @@ namespace ModCompendium
             InitializeLog();
 
             var version = Assembly.GetExecutingAssembly().GetName().Version;
-            Title = $"Mod Compendium {version.Major}.{version.Minor}.{version.Revision}";
+            Title = $"Mod Compendium {version.Major}.{version.Minor}.{version.Revision} - Vita3k Edit";
             Config = ConfigStore.Get<MainWindowConfig>();
             InitializeGameComboBox();
             InitializeFolderComboBox();

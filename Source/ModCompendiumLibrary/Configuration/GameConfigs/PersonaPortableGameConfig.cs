@@ -37,6 +37,16 @@ namespace ModCompendiumLibrary.Configuration
             public override Game Game => Game.Persona4Dancing;
         }
 
+        public class Persona3DancingConfig : PersonaPortableGameConfig
+        {
+            public override Game Game => Game.Persona3Dancing;
+        }
+
+        public class Persona5DancingConfig : PersonaPortableGameConfig
+        {
+            public override Game Game => Game.Persona5Dancing;
+        }
+
         public class CatherineFullBodyGameConfig : PersonaPortableGameConfig
         {
             public override Game Game => Game.CatherineFullBody;
